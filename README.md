@@ -1,5 +1,5 @@
 # FaceDetection-using-Python
-Detecting faces and labeling their respective names on the screen.
+Detecting faces and labeling their respective names on the screen using
 Libraries:-  OpenCv3.4, OpenCv-contrib3.4, Numpy
 
 First I created dataset and saved 6 face images of same person using Cascade classifier(HaarCascade)
