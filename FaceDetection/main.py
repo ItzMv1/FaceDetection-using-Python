@@ -7,7 +7,7 @@ detector = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')    #clas
 cap = cv2.VideoCapture(0)
 
 rec =  cv2.face.LBPHFaceRecognizer_create();
-rec.read(r"C:\Users\Manish\PycharmProjects\FaceDetection\Recognizer\training_data.yml")
+rec.read(r"Recognizer\training_data.yml")
 font = cv2.FONT_HERSHEY_COMPLEX
 ID = 0
 
