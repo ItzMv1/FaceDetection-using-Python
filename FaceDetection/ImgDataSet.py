@@ -23,7 +23,7 @@ while (True):
         sammpleNum += 1
         #Here we creating every image we get in frame and labeling it with its id name
 
-        cv2.imwrite("C:/Users/Manish/PycharmProjects/FaceDetection/DataSet/" + str(id) + "." + str(sammpleNum) + ".jpg", gray[y:y + h, x:x + w])
+        cv2.imwrite("DataSet" + str(id) + "." + str(sammpleNum) + ".jpg", gray[y:y + h, x:x + w])
         cv2.rectangle(img, (x, y), (x + w, y + h), (255, 255, 255),2)
         cv2.waitKey(100)
 
